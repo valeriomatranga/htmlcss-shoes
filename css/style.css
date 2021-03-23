@@ -5,7 +5,12 @@
     font-family: 'Dela Gothic One', cursive;
 }
 
-header .sfere> div{
+/* header{
+    height: 80px;
+    background-color: red;
+}
+ */
+.sfere> div{
     width: 40px;
     height: 40px;
     background-color: white;
@@ -22,4 +27,45 @@ header .sfere> div{
     position: absolute;
    top: 20px;
    right: 10px;
-}    
+}   
+
+.modello{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.primo{
+    background-color: red;     
+}
+
+.secondo{
+    background-color: green;
+}
+
+.terzo{
+    background-color: yellow;
+}
+
+img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2{
+    font-size: 40px;
+    color: yellow;
+    word-spacing: 2rem;
+    width: 600px;
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.terzo div>h2{
+    color: green;
+}
