@@ -5,15 +5,7 @@
     font-family: 'Dela Gothic One', cursive;
 }
 
-<<<<<<< HEAD
-=======
-/* header{
-    height: 80px;
-    background-color: red;
-}
- */
->>>>>>> 592b4a4839480d3c134b95f6db888b29bda485a5
-.sfere> div{
+.sfere> a{
     width: 40px;
     height: 40px;
     background-color: white;
@@ -25,6 +17,8 @@
     line-height: 35px;
     font-size: 15px;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
 .sfere{     
@@ -35,21 +29,26 @@
    position: fixed;
 }   
 
+.sfere>a:hover{
+    background-color: rgba(0, 0, 0, 0.329);
+    color: white;
+}
+
 .modello{
     width: 100%;
     height: 100vh;
     position: relative;
 }
 
-.primo{
+#primo{
     background-color: red;     
 }
 
-.secondo{
+#secondo{
     background-color: green;
 }
 
-.terzo{
+#terzo{
     background-color: yellow;
 }
 
@@ -66,7 +65,6 @@ h2{
     word-spacing: 2rem;
     width: 800px;
     text-align: center;
-    margin: -20px -10px;
 }
 
 
